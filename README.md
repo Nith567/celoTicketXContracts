@@ -69,19 +69,3 @@ forge script deploy/DeployCeloTicketX.s.sol --rpc-url https://forno.celo.org --b
 forge verify-contract $CONTRACT_ADDRESS  --chain celo --rpc-url https://forno.celo.org
 ```
 
-## Running the Demo Script
-
-The repository includes a script that demonstrates the swap functionality by interacting with a deployed BrokerDemo contract.
-
-1. Update the script with your deployed contract address:
-
-   - Open `script/BrokerDemo.s.sol`
-   - Replace `BROKER_DEMO` constant with your deployed contract address
-  
-2. Run the script:
-
-```bash
-forge script script/CeloTicketX.s.sol --rpc-url https://forno.celo.org --broadcast
-```
-
-
